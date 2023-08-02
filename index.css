@@ -1,0 +1,112 @@
+.city{
+    background-image: url(city.jpg);
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    font-size: larger;
+    border-radius: 30px;
+    margin-bottom: 10px;  
+}
+#img-park{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+#img-bomas{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+.activity-group{
+    background: radial-gradient(rgb(60, 219, 60),rgb(16, 208, 160));
+    border-top-left-radius: 30px;  
+    border-top-right-radius: 30px;
+    padding: 20px;
+   
+}
+.activity{
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 18px;
+    
+    font-size: x-large;
+}
+p{
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+}
+#head3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.park{
+    text-align: center;
+    width: 500px;
+}
+.bomas{
+    text-align: center;
+    width: 500px;
+}
+.golf{
+    text-align: center;
+    width: 500px;
+}
+.guide{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #7fbffb;
+    border-bottom: 16px solid #866cef;
+    justify-content: space-around;
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px;
+}
+#guide{
+    text-align: center;
+    font-size: x-large;
+    margin: 15px;
+}
+.img-guide{
+    margin: 15px;
+}
+.park:hover{
+    background-image: url(Game-Viewing-in-Nairobi-National-Park-720x450.jpg);
+    background-size: cover;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+.bomas:hover{
+    background-image: url(bomas-kenya-cultural-tour.gif);
+    background-size: cover;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 30px;
+}
+.golf:hover{
+    background-image: url(CFMP1726-scaled.jpg);
+    background-size: cover;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 30px;
+}
+.tour-guide{
+    background-image: url(city.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 10px; 
+    margin-top: 30px; 
+}
+.avatar{
+    width: 300px;
+    border-radius: 50%;
+}
